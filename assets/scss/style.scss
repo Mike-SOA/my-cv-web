@@ -1,0 +1,122 @@
+@import "presets/skins";
+@import "presets/variables";
+
+@import "common";
+
+@font-face {
+  font-family: "Arodora Pro";
+  src: url(/fonts/arodora_pro/ArodoraPro-Light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "NEXT ART";
+  src: url(/fonts/next_art/NEXT_ART_Bold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "NEXT ART";
+  src: url(/fonts/next_art/NEXT_ART_SemiBold.otf);
+  font-weight: 600;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+.d-flex {
+  display: flex;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Arodora Pro";
+  font-weight: 300;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.header {
+  background: linear-gradient(101.56deg, #2c2c2c 1.56%, #1c1c1c 95.55%);
+  color: #e4e4e4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header-nav {
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.active {
+  border-bottom: solid 1px rgba(226, 163, 0, 1);
+}
+.header-navbar {
+  margin-left: 350px;
+}
+
+.header-logo {
+  min-width: 65px;
+}
+.header-nav-link {
+  margin-right: 145px;
+}
+
+.header-main {
+  margin-top: 45px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-sub-title {
+  font-family: "NEXT ART";
+  font-weight: 600;
+  font-size: 48px;
+}
+.header-title {
+  font-family: "NEXT ART";
+  font-weight: 700;
+  font-size: 72px;
+}
+.header-text {
+  padding-right: 60px;
+  margin-top: 27px;
+  max-width: 447px;
+  font-family: "Arodora Pro";
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.header-titile {
+  margin-top: 27px;
+}
+
+.header-link--contact {
+  margin-top: 27px;
+  background: linear-gradient(87.32deg, #e2a300 4.47%, #e29500 95.53%);
+  box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+  display: inline-block;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 14px 40px;
+  color: #000000;
+}
+
+.header-main-photo {
+  max-width: 456px;
+}

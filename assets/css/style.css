@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Arodora Pro";
+  font-weight: 300;
+
+  src: url(/fonts/arodora_pro/ArodoraPro-Light.otf);
+}
+@font-face {
+  font-family: "NEXT ART";
+  font-weight: 700;
+
+  src: url(/fonts/next_art/NEXT_ART_Bold.otf);
+}
+@font-face {
+  font-family: "NEXT ART";
+  font-weight: 600;
+
+  src: url(/fonts/next_art/NEXT_ART_SemiBold.otf);
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+a {
+  white-space: nowrap;
+  text-decoration: none;
+
+  color: inherit;
+
+  font-family: "Arodora Pro";
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.header {
+  color: #e4e4e4;
+  background: -o-linear-gradient(348.44deg, #2c2c2c 1.56%, #1c1c1c 95.55%);
+  background:    linear-gradient(101.56deg, #2c2c2c 1.56%, #1c1c1c 95.55%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header-nav {
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+
+  padding-top: 30px;
+
+  text-align: center;
+}
+
+.active {
+  border-bottom: solid 1px rgb(226, 163, 0);
+}
+
+.header-navbar {
+  margin-left: 350px;
+}
+
+.header-logo {
+  min-width: 65px;
+}
+
+.header-nav-link {
+  margin-right: 145px;
+}
+
+.header-main {
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  margin-top: 45px;
+}
+
+.header-sub-title {
+  font-family: "NEXT ART";
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.header-title {
+  font-family: "NEXT ART";
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.header-text {
+  max-width: 447px;
+  margin-top: 27px;
+  padding-right: 60px;
+
+  font-family: "Arodora Pro";
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.header-titile {
+  margin-top: 27px;
+}
+
+.header-link--contact {
+  display: inline-block;
+
+  margin-top: 27px;
+  padding: 14px 40px;
+
+  color: #000000;
+  border-radius: 6px;
+  background: -o-linear-gradient(2.68deg, #e2a300 4.47%, #e29500 95.53%);
+  background:    linear-gradient(87.32deg, #e2a300 4.47%, #e29500 95.53%);
+  -webkit-box-shadow: 0 2px 13px rgba(226, 158, 0, 0.48);
+          box-shadow: 0 2px 13px rgba(226, 158, 0, 0.48);
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.header-main-photo {
+  max-width: 456px;
+}
