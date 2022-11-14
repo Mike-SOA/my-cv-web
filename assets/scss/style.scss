@@ -102,7 +102,7 @@ a {
   font-size: 18px;
 }
 
-.header-titile {
+.header-title {
   margin-top: 27px;
 }
 
@@ -121,5 +121,20 @@ a {
 }
 
 .header-main-photo {
-  max-width: 456px;
+  max-width: 600px;
+}
+
+.icon-section {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+}
+
+.icon-section-wrapper {
+  display: flex;
+}
+.icons {
+  width: 270px;
+  height: 170px;
+  background: #2a2a2a;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+  border-radius: 29px;
 }
