@@ -120,12 +120,16 @@ a {
   color: #000000;
 }
 
-.header-main-photo {
-  max-width: 600px;
+.wrapper-gradient {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
 }
 
 .icon-section {
-  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+  padding-bottom: 50px;
+}
+
+.header-main-photo {
+  max-width: 600px;
 }
 
 .icon-section-wrapper {
@@ -157,8 +161,8 @@ a {
 }
 
 .main {
-  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 114px;
 }
 
 .main-bg-img {
@@ -167,11 +171,17 @@ a {
   background-size: 90% auto;
 }
 
+.about-me-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .main-about-me {
   max-width: 496px;
   margin: 0 auto;
   background: #2c2c2c;
   border-radius: 14px;
+  padding: 0 63px 63px;
 }
 
 .main-about-me-title {
@@ -180,9 +190,7 @@ a {
   font-size: 48px;
   line-height: 54px;
   color: #e4e4e4;
-  position: relative;
-  top: -27px;
-  left: 63px;
+  transform: translateY(-29px);
 }
 
 .main-text {
@@ -190,6 +198,84 @@ a {
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
+  letter-spacing: 0.01em;
   color: #ffffff;
-  padding: 63px;
+}
+
+.main-about-me-image-wrapper {
+  transform: translateX(40px);
+}
+.main-about-me-image--photo1 {
+  max-width: 272px;
+  box-shadow: 0px 0px 0px 6px #686868;
+}
+
+.main-about-me-image--photo2 {
+  max-width: 250px;
+  box-shadow: 0px 0px 0px 6px #686868;
+}
+
+.main-about-me-image--photo3 {
+  max-width: 287px;
+  box-shadow: 0px 0px 0px 6px #686868;
+}
+
+.main-about-me-image1 {
+  background: #2c2c2c;
+  border-radius: 14px;
+  padding: 29px;
+  text-align: center;
+}
+
+.main-about-me-image2 {
+  background: #2c2c2c;
+  border-radius: 14px;
+  padding: 29px;
+  text-align: center;
+}
+
+.main-about-me-image3 {
+  background: #2c2c2c;
+  border-radius: 14px;
+  padding: 29px;
+  text-align: center;
+  transform: translateX(-40px);
+}
+
+.portfolio {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+  padding: 100px 0 150px;
+}
+
+.portfolio-title {
+  font-family: "NEXT ART";
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.portfolio-slider {
+  max-width: 970px;
+  margin: 50px auto 0;
+}
+
+.portfolio-slider-item {
+  justify-content: space-between;
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+  box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+  border-radius: 29px;
+  padding: 50px;
+}
+
+.portfolio-slider-img {
+  width: 493px;
+  height: 500px;
+  background-color: aqua;
+}
+
+.portfolio-slider-text {
+  width: 296px;
+  height: 436px;
+  background-color: #e2a300;
+  margin: auto 0;
 }

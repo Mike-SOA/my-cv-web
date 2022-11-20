@@ -1,1 +1,5 @@
-console.log("hello world");
+$(document).ready(function () {
+  $(".your-class").slick({
+    arrows: true
+  });
+});
