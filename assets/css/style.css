@@ -206,3 +206,41 @@ a {
   background: -o-linear-gradient(319.32deg, #414141 0%, #2d2d2d 100.52%);
   background:    linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
 }
+
+.main-bg-img {
+  background-image: url(../../img/Ellipsbackground.png);
+  background-repeat: no-repeat;
+  background-size: 90% auto;
+}
+
+.main-about-me {
+  max-width: 496px;
+  margin: 0 auto;
+
+  border-radius: 14px;
+  background: #2c2c2c;
+}
+
+.main-about-me-title {
+  position: relative;
+  top: -27px;
+  left: 63px;
+
+  color: #e4e4e4;
+
+  font-family: "NEXT ART";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 54px;
+}
+
+.main-text {
+  padding: 63px;
+
+  color: #ffffff;
+
+  font-family: "Arodora Pro";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+}
