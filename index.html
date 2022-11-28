@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <header class="header">
+    <header id="home" class="header">
       <div class="container">
         <div class="header-nav d-flex">
           <div class="header-logo"><img src="img/logo.png" alt="logo"></div>
           <nav class="header-navbar">
             <ul class="header-nav-list d-flex">
-              <li class="header-nav-link"><a href="#">Home</a></li>
-              <li class="header-nav-link"><a href="#">About me</a></li>
-              <li class="header-nav-link"><a href="#">Portfolio</a></li>
-              <li class="header-nav-link"><a href="#">Contact</a></li>
+              <li class="header-nav-link"><a href="#home">Home</a></li>
+              <li class="header-nav-link"><a href="#about">About me</a></li>
+              <li class="header-nav-link"><a href="#portfolio">Portfolio</a></li>
+              <li class="header-nav-link"><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -27,7 +27,8 @@
           <div class="header-title-text">
             <h2 class="header-sub-title">Hello</h2>
             <h1 class="header-title">I`m Mykhailo Kushnir</h1>
-            <p class="header-text">Lorem ipsum dolor sit amet consectetur
+            <p class="header-text">Lorem ipsum dolor sit amet
+              consectetur
               adipisicing elit. Delectus aperiam neque, ducimus explicabo, et
               perspiciatis reprehenderit quo optio recusandae repudiandae
               architecto nihil asperiores dolor at nulla magni eveniet quisquam
@@ -73,7 +74,7 @@
                 </div>
               </div>
 
-              <div class="main-about-me">
+              <div class="main-about-me" id="about">
                 <h1 class="main-about-me-title">About me</h1>
                 <p class="main-text">
                   Hello again everyone! So, you already know that my name is
@@ -127,26 +128,82 @@
       <div class="container">
         <h3 class="portfolio-title">Portfolio</h3>
         <div class="portfolio-slider">
-          <div class="portfolio-slider-item d-flex">
+          <div class="portfolio-slider-item" id="portfolio">
             <div class="portfolio-slider-img">
-              <!-- <img src="img/slider1.png" alt="slider photo"> -->
+              <img src="img/slider1.png" alt="slider photo">
             </div>
             <div class="portfolio-slider-text">
-              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut
-              orci eu elit consequat posuere ut sed elit. Nulla et tristique
-              felis. Morbi quis orci non purus blandit fringilla. Etiam et
-              mollis eros. Duis venenatis vulputate lacus, non tristique eros
-              placerat vel. Nam nec magna lacus. Etiam euismod egestas mauris
-              nec mollis. Phasellus efficitur et ex vel condimentum. Cras enim
-              purus, tempor sed massa vel, accumsan bibendum magna. Nullam
-              hendrerit cursus purus, sit amet viverra arcu gravida vel.</p> -->
+              <h3 class="portfolio-slider-title-text">Landing Ice-cream</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ut
+                orci eu elit consequat posuere ut sed elit. Nulla et tristique
+                felis. Morbi quis orci non purus blandit fringilla. Etiam et
+                mollis eros. Duis venenatis vulputate lacus, non tristique eros
+                placerat vel. Nam nec magna lacus. Etiam euismod egestas mauris
+                nec mollis. Phasellus efficitur et ex vel condimentum. Cras enim
+                purus, tempor sed massa vel, accumsan bibendum magna. Nullam
+                hendrerit cursus purus, sit amet viverra arcu gravida vel.</p>
+            </div>
+          </div>
+          <div class="portfolio-slider-item">
+            <div class="portfolio-slider-img">
+              <img src="img/slider1.png" alt="slider photo">
+            </div>
+            <div class="portfolio-slider-text">
+              <h3 class="portfolio-slider-title-text">Landing Ice-cream</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ut
+                orci eu elit consequat posuere ut sed elit. Nulla et tristique
+                felis. Morbi quis orci non purus blandit fringilla. Etiam et
+                mollis eros. Duis venenatis vulputate lacus, non tristique eros
+                placerat vel. Nam nec magna lacus. Etiam euismod egestas mauris
+                nec mollis. Phasellus efficitur et ex vel condimentum. Cras enim
+                purus, tempor sed massa vel, accumsan bibendum magna. Nullam
+                hendrerit cursus purus, sit amet viverra arcu gravida vel.</p>
+            </div>
+          </div>
+          <div class="portfolio-slider-item">
+            <div class="portfolio-slider-img">
+              <img src="img/slider1.png" alt="slider photo">
+            </div>
+            <div class="portfolio-slider-text">
+              <h3 class="portfolio-slider-title-text">Landing Ice-cream</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                ut
+                orci eu elit consequat posuere ut sed elit. Nulla et tristique
+                felis. Morbi quis orci non purus blandit fringilla. Etiam et
+                mollis eros. Duis venenatis vulputate lacus, non tristique eros
+                placerat vel. Nam nec magna lacus. Etiam euismod egestas mauris
+                nec mollis. Phasellus efficitur et ex vel condimentum. Cras enim
+                purus, tempor sed massa vel, accumsan bibendum magna. Nullam
+                hendrerit cursus purus, sit amet viverra arcu gravida vel.</p>
             </div>
           </div>
         </div>
-
       </div>
-
     </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper d-flex">
+          <div class="footer-links d-flex">
+            <a href="#home">Home</a>
+            <a href="#about">About me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a
+              href="https://instagram.com/kushnir__michael?igshid=YmMyMTA2M2Y=">Contact</a>
+          </div>
+          <div class="footer-contacts d-flex">
+            <p>Contact:</p>
+            <a href="mailto: anarchyrock657@gmail.com">Email:
+              anarchyrock657@gmail.com</a>
+            <p>Inst: kushnir_michael</p>
+            <p>Calls: +38(099)-376-14-21</p>
+          </div>
+          <div id="contact" class="footer-copyright d-flex">Copyright © 2022,
+            Mykhailo</div>
+        </div>
+      </div>
+    </footer>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="https://kit.fontawesome.com/d9a3335612.js"

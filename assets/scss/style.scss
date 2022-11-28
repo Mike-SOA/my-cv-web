@@ -268,14 +268,68 @@ a {
 }
 
 .portfolio-slider-img {
-  width: 493px;
-  height: 500px;
-  background-color: aqua;
+  max-width: 493px;
 }
 
 .portfolio-slider-text {
-  width: 296px;
-  height: 436px;
-  background-color: #e2a300;
+  max-width: 296px;
   margin: auto 0;
+  font-family: "Arodora Pro";
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.portfolio-slider-title-text {
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 25px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  background: linear-gradient(87.32deg, #e2a300 4.47%, #e29500 95.53%);
+  border-radius: 50%;
+  padding: 18px;
+  font-size: 36px;
+}
+
+.slick-next {
+  right: -60px;
+}
+
+.slick-prev {
+  left: -105px;
+}
+
+.footer {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+  padding: 50px 0;
+  align-items: flex-start;
+  color: #e4e4e4;
+  font-family: "Arodora Pro";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+}
+
+.footer-wrapper {
+  justify-content: space-evenly;
+}
+
+.footer-links {
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer-contacts {
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer-copyright {
+  flex-direction: column;
+  justify-content: flex-end;
 }

@@ -354,16 +354,98 @@ a {
 }
 
 .portfolio-slider-img {
-  width: 493px;
-  height: 500px;
-
-  background-color: aqua;
+  max-width: 493px;
 }
 
 .portfolio-slider-text {
-  width: 296px;
-  height: 436px;
+  max-width: 296px;
   margin: auto 0;
 
-  background-color: #e2a300;
+  text-align: center;
+
+  color: #ffffff;
+
+  font-family: "Arodora Pro";
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.portfolio-slider-title-text {
+  padding-bottom: 25px;
+
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  padding: 18px;
+
+  border-radius: 50%;
+  background: -o-linear-gradient(2.68deg, #e2a300 4.47%, #e29500 95.53%);
+  background:    linear-gradient(87.32deg, #e2a300 4.47%, #e29500 95.53%);
+
+  font-size: 36px;
+}
+
+.slick-next {
+  right: -60px;
+}
+
+.slick-prev {
+  left: -105px;
+}
+
+.footer {
+  -webkit-box-align: start;
+  -webkit-box-align: center;
+  align-items: flex-start;
+  align-items: center;
+  -ms-flex-align: start;
+  -ms-flex-align: center;
+
+  padding: 50px 0;
+
+  color: #e4e4e4;
+  background: -o-linear-gradient(319.32deg, #414141 0%, #2d2d2d 100.52%);
+  background:    linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+
+  font-family: "Arodora Pro";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.footer-wrapper {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.footer-links {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+
+  gap: 18px;
+}
+
+.footer-contacts {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+
+  gap: 18px;
+}
+
+.footer-copyright {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }

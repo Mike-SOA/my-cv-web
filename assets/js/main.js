@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".your-class").slick({
-    arrows: true
+  $(".portfolio-slider").slick({
+    arrows: true,
   });
 });
