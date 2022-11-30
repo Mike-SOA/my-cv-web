@@ -573,6 +573,7 @@ a {
 @media (max-width: 320px) {
   .container {
     max-width: none;
+    padding: 10px;
   }
 
   .menu-btn {
@@ -613,4 +614,46 @@ a {
   .header-main-photo {
     max-width: 350px;
   }
+
+  .main-about-me {
+    max-width: 250px;
+    padding: 0 15px 15px;
+  }
+
+  .main-about-me-title {
+    font-size: 26px;
+  }
+  .main-text {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .main-about-me-image1,
+  .main-about-me-image2,
+  .main-about-me-image3 {
+    display: none;
+  }
+
+  .icons {
+    margin: 15px;
+    min-width: 200px;
+    min-height: 200px;
+  }
+
+  .portfolio-title {
+    font-size: 32px;
+  }
+
+  .portfolio-slider {
+    max-width: 250px;
+    margin: 15px auto 0;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
+
+  
 }
