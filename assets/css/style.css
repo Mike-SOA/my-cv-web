@@ -619,6 +619,8 @@ a {
     display: block;
   }
   .header-title {
+    margin-top: 10px;
+
     font-size: 26px;
   }
   .header-sub-title {
@@ -626,11 +628,12 @@ a {
   }
   .header-text {
     max-width: 200px;
+    padding-right: 25px;
 
     text-align: center;
   }
   .header-main-photo {
-    width: 325px;
+    width: 133px;
   }
 }
 
