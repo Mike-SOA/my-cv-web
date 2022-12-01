@@ -417,7 +417,7 @@ a {
 }
 
 .portfolio {
-  padding: 100px 0 150px;
+  padding: 100px 0;
 
   background: -o-linear-gradient(319.32deg, #414141 0%, #2d2d2d 100.52%);
   background:    linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
@@ -849,6 +849,9 @@ a {
     -ms-flex-direction: column;
         flex-direction: column;
   }
+  .footer {
+    padding: 50px 15px;
+  }
   .footer-links {
     margin-bottom: 15px;
   }
@@ -948,6 +951,9 @@ a {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
         flex-direction: column;
+  }
+  .footer {
+    padding: 50px 15px;
   }
   .footer-links {
     margin-bottom: 10px;
@@ -1051,6 +1057,9 @@ a {
     -ms-flex-direction: column;
         flex-direction: column;
   }
+  .footer {
+    padding: 50px 15px;
+  }
   .footer-links {
     margin-bottom: 10px;
   }
@@ -1058,7 +1067,7 @@ a {
 
 @media (max-width: 400px) {
   .container {
-    max-width: 390px;
+    max-width: 350px;
     padding: 5px;
   }
   .header-btn,
@@ -1128,8 +1137,8 @@ a {
     font-size: 32px;
   }
   .portfolio-slider {
-    max-width: 350px;
-    margin: 15px auto 0;
+    max-width: 340px;
+    margin: 15px auto;
   }
   .slick-prev:before,
   .slick-next:before {
@@ -1152,6 +1161,9 @@ a {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
         flex-direction: column;
+  }
+  .footer {
+    padding: 50px 15px;
   }
   .footer-links {
     margin-bottom: 10px;
@@ -1257,6 +1269,9 @@ a {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
         flex-direction: column;
+  }
+  .footer {
+    padding: 50px 15px;
   }
   .footer-links {
     margin-bottom: 10px;

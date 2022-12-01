@@ -302,7 +302,7 @@ a {
 
 .portfolio {
   background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
-  padding: 100px 0 150px;
+  padding: 100px 0;
 }
 
 .portfolio-title {
@@ -703,6 +703,11 @@ a {
   .footer-wrapper {
     flex-direction: column;
   }
+
+  .footer {
+    padding: 50px 15px;
+  }
+
   .footer-links {
     margin-bottom: 15px;
   }
@@ -802,6 +807,10 @@ a {
   }
   .footer-wrapper {
     flex-direction: column;
+  }
+
+  .footer {
+    padding: 50px 15px;
   }
 
   .footer-links {
@@ -910,6 +919,11 @@ a {
   .footer-wrapper {
     flex-direction: column;
   }
+
+  .footer {
+    padding: 50px 15px;
+  }
+
   .footer-links {
     margin-bottom: 10px;
   }
@@ -917,7 +931,7 @@ a {
 
 @media (max-width: 400px) {
   .container {
-    max-width: 390px;
+    max-width: 350px;
     padding: 5px;
   }
 
@@ -990,8 +1004,8 @@ a {
   }
 
   .portfolio-slider {
-    max-width: 350px;
-    margin: 15px auto 0;
+    max-width: 340px;
+    margin: 15px auto;
   }
 
   .slick-prev:before,
@@ -1016,6 +1030,10 @@ a {
   .footer-wrapper {
     flex-direction: column;
   }
+  .footer {
+    padding: 50px 15px;
+  }
+
   .footer-links {
     margin-bottom: 10px;
   }
@@ -1125,6 +1143,10 @@ a {
 
   .footer-wrapper {
     flex-direction: column;
+  }
+
+  .footer {
+    padding: 50px 15px;
   }
   .footer-links {
     margin-bottom: 10px;
