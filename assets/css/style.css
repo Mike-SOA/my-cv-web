@@ -333,11 +333,11 @@ a {
 }
 
 .main-about-me-title {
-  -webkit-transform: translateY(-29px);
-      -ms-transform: translateY(-29px);
-          transform: translateY(-29px);
+  -webkit-transform: translateY(-25px);
+      -ms-transform: translateY(-25px);
+          transform: translateY(-25px);
 
-  color: #e4e4e4;
+  color: #e2a200;
 
   font-family: "NEXT ART";
   font-size: 48px;
@@ -666,12 +666,12 @@ a {
     padding: 0 15px 15px;
   }
   .main-about-me-title {
-    font-size: 26px;
+    font-size: 34px;
   }
   .main-text {
     text-align: center;
 
-    font-size: 18px;
+    font-size: 22px;
     line-height: 22px;
   }
   .main-about-me-image-wrapper {
