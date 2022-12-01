@@ -395,6 +395,9 @@ a {
 .main-about-me-image2 {
   padding: 29px;
 
+  -webkit-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+          transform: translateY(20px);
   text-align: center;
 
   border-radius: 14px;
@@ -698,12 +701,17 @@ a {
     font-size: 38px;
   }
   .portfolio-slider {
-    width: 550px;
-    margin: 15px auto 0;
+    width: 700px;
+    margin: 15px auto;
+  }
+  .portfolio-slider-img {
+    margin: 0 auto;
   }
   .portfolio-slider-text {
-    max-width: 550px;
+    max-width: 650px;
     padding-top: 35px;
+
+    font-size: 24px;
   }
   .slick-prev:before,
   .slick-next:before {
@@ -712,7 +720,7 @@ a {
   .portfolio-slider-title-text {
     padding: 10px 0;
 
-    font-size: 24px;
+    font-size: 28px;
     line-height: 24px;
   }
   .slick-initialized,
@@ -948,7 +956,7 @@ a {
 
 @media (max-width: 480px) {
   .container {
-    max-width: 320px;
+    max-width: 450px;
     padding: 10px;
   }
   .header-btn,
@@ -992,17 +1000,17 @@ a {
     max-width: 350px;
   }
   .main-about-me {
-    max-width: 250px;
-    padding: 0 15px 15px;
+    max-width: 290px;
+    padding: 10px;
   }
   .main-about-me-title {
-    font-size: 26px;
+    font-size: 28px;
   }
   .main-text {
     text-align: center;
 
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 22px;
+    line-height: 20px;
   }
   .main-about-me-image1,
   .main-about-me-image2,
@@ -1018,7 +1026,7 @@ a {
     font-size: 32px;
   }
   .portfolio-slider {
-    max-width: 250px;
+    max-width: 300px;
     margin: 15px auto 0;
   }
   .slick-prev:before,
@@ -1028,8 +1036,113 @@ a {
   .portfolio-slider-title-text {
     padding: 20px 0;
 
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 22px;
+  }
+  .portfolio-slider-text {
+    font-size: 22px;
+  }
+  .slick-initialized {
+    display: block;
+  }
+  .footer-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .footer-links {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 390px;
+    padding: 5px;
+  }
+  .header-btn,
+  .menu-btn,
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  .header-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+
+    text-align: center;
+  }
+  .header-title {
+    margin-top: 5px;
+
+    font-size: 26px;
+  }
+  .header-sub-title {
+    font-size: 22px;
+  }
+  .header-text {
+    max-width: 350px;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .header-link--contact {
+    max-width: 200px;
+    padding: 10px 30px;
+
+    font-size: 22px;
+  }
+  .header-main-photo {
+    max-width: 350px;
+  }
+  .main-about-me {
+    max-width: 350px;
+    padding: 10px;
+  }
+  .main-about-me-title {
+    font-size: 28px;
+  }
+  .main-text {
+    text-align: center;
+
+    font-size: 22px;
     line-height: 20px;
+  }
+  .main-about-me-image1,
+  .main-about-me-image2,
+  .main-about-me-image3 {
+    display: none;
+  }
+  .icons {
+    min-width: 200px;
+    min-height: 200px;
+    margin: 15px;
+  }
+  .portfolio-title {
+    font-size: 32px;
+  }
+  .portfolio-slider {
+    max-width: 350px;
+    margin: 15px auto 0;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
+  .portfolio-slider-title-text {
+    padding: 20px 0;
+
+    font-size: 24px;
+    line-height: 22px;
+  }
+  .portfolio-slider-text {
+    font-size: 22px;
   }
   .slick-initialized {
     display: block;
@@ -1077,8 +1190,8 @@ a {
     font-size: 22px;
   }
   .header-text {
-    max-width: 350px;
-    margin-top: 10px;
+    max-width: 250px;
+    margin: 10px auto;
     padding: 0;
   }
   .header-link--contact {
@@ -1113,12 +1226,18 @@ a {
     min-height: 200px;
     margin: 15px;
   }
+  .portfolio {
+    padding: 50px 5px;
+  }
   .portfolio-title {
     font-size: 32px;
   }
   .portfolio-slider {
-    max-width: 250px;
-    margin: 15px auto 0;
+    max-width: 290px;
+    margin: 15px auto;
+  }
+  .portfolio-slider-item {
+    padding: 5px;
   }
   .slick-prev:before,
   .slick-next:before {
