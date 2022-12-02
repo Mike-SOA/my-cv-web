@@ -1004,7 +1004,7 @@ a {
   }
 
   .portfolio-slider {
-    max-width: 340px;
+    max-width: 300px;
     margin: 15px auto;
   }
 
@@ -1020,7 +1020,7 @@ a {
   }
 
   .portfolio-slider-text {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .slick-initialized {
@@ -1042,7 +1042,7 @@ a {
 @media (max-width: 320px) {
   .container {
     max-width: none;
-    padding: 10px;
+    padding: 5px;
   }
 
   .header-btn,
@@ -1122,17 +1122,13 @@ a {
     margin: 15px auto;
   }
 
-  .portfolio-slider-item {
-    padding: 5px;
-  }
-
   .slick-prev:before,
   .slick-next:before {
     display: none;
   }
 
   .portfolio-slider-title-text {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
     padding: 20px 0;
   }
